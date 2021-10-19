@@ -11,4 +11,4 @@
 2. O arquivo ItemSolicitationControllerTest, além de testar as funcionalidades de create, update, list e delete, contém 
    também um método que possibilidade lançar uma porcentagem de desconto em produtos que não serviços.
    
-   - Método (persistItemSolicitationWithDeduction) testa um desconto de 15% em cima do valor total dos produtos.
+   - Método (persistItemSolicitationWithDeduction) testa um desconto de 10% em cima do valor total dos produtos.
