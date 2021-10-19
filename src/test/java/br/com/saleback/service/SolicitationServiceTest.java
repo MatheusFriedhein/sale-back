@@ -4,6 +4,7 @@ import br.com.saleback.dto.ItemSolicitationDTO;
 import br.com.saleback.model.Product;
 import br.com.saleback.model.Solicitation;
 import br.com.saleback.repository.ItemSolicitationRepository;
+import br.com.saleback.repository.SolicitationRepository;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -26,6 +27,9 @@ public class SolicitationServiceTest {
     @InjectMocks
     @Spy
     private SolicitationService solicitationService;
+
+    @Mock
+    private SolicitationRepository solicitationRepository;
 
     @Mock
     private ItemSolicitationRepository itemSolicitationRepository;
